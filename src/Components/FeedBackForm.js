@@ -207,6 +207,7 @@ export default function FeedBackForm() {
                 id="feedback"
                 onChange={handleChange}
                 value={formValues?.feedback}
+                placeholder="Comments"
               ></textarea>
               {errors?.feedback && (
                 <span className="error-message">{errors.feedback}</span>
