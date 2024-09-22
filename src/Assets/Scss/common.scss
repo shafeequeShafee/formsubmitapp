@@ -9,18 +9,18 @@
     .feed-back-form-container {
       color: #2071b2;
 
-      margin: 50px 0px 0px 50px;
+      margin: 10px 0px 0px 50px;
       width: 100%;
       height: auto;
       display: flex;
       justify-content: flex-start;
-      align-items: center;
 
       .form-container {
+        overflow-y: auto;
         width: 410px;
         border-radius: 10px;
         margin: 0px 20px;
-        height: 600px;
+        height: auto;
 
         background-color: #fff;
         border: 1px solid #fff;
@@ -135,7 +135,7 @@
         overflow-y: auto;
         width: 410px;
         margin: 0px 20px;
-        height: 600px;
+        height: auto;
         margin: 0px 20px;
         .content-container {
           margin: 20px;
@@ -173,7 +173,7 @@
                 width: 60px;
                 height: 60px;
               }
-              span{
+              span {
                 color: #2f671b;
               }
             }
